@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luma Labs Africa | Illuminating Possibilities.</title>
+<meta name="description" content="Luma Labs Africa observes how businesses operate, identifies gaps and develops practical solutions that improve how businesses work and how customers experience them.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Luma Labs Africa | Illuminating Possibilities.">
+<meta property="og:description" content="We identify opportunities hidden in everyday business operations and develop practical solutions.">
+<meta name="theme-color" content="#111318">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111318'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23F28C00'/%3E%3C/svg%3E">
+<style>
+:root{--ink:#111318;--white:#fff;--orange:#F28C00;--grey:#F3F4F6;--muted:#737780;--soft:#A9ADB6;--hair:#262a33}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:4.5rem;background:var(--ink)}
+body{margin:0;font:17px/1.6 "Helvetica Neue","Avenir Next","Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--white);-webkit-font-smoothing:antialiased}
+::selection{background:var(--orange);color:var(--ink)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--orange);color:var(--ink);padding:.6rem 1rem;z-index:99}
+.skip:focus{left:0}
+.wrap{max-width:76rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-weight:800;letter-spacing:-.03em;line-height:1.05;margin:0}
+h1{font-size:clamp(3rem,12vw,8.6rem);font-weight:900;letter-spacing:-.055em;line-height:.92}
+h2{font-size:clamp(1.7rem,3vw,2.35rem);margin-bottom:1.2rem}
+h3{font-size:1.25rem;letter-spacing:-.015em;line-height:1.25}
+p{margin:0 0 1rem}
+section{padding:5.5rem 0;border-top:1px solid #dcdee3}
+.dark{background:var(--ink);color:var(--white);border-color:var(--hair)}
+.dark p,.dark li,.dark dd{color:var(--soft)}
+.light{background:var(--grey)}
+.light p,.light li,.light dd{color:#4a4e57}
+.lead{font-size:1.15rem}
+.tag{color:var(--orange);font-weight:700}
+.btn{display:inline-block;font:700 1rem inherit;padding:1rem 1.6rem;border-radius:2px;border:1.5px solid var(--orange);text-decoration:none;cursor:pointer;transition:transform .15s,background .15s,color .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.fill{background:var(--orange);color:var(--ink)}
+.btn.fill:hover{background:var(--white);border-color:var(--white)}
+.btn.ghost{color:inherit;border-color:currentColor}
+.btn.ghost:hover{background:var(--orange);border-color:var(--orange);color:var(--ink)}
+header.site{position:sticky;top:0;z-index:20;background:var(--ink);color:var(--white);border-bottom:1px solid var(--hair)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:4.2rem}
+.brand{font-weight:900;font-size:.9rem;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;display:flex;align-items:center;gap:.7rem}
+.brand i{width:.8rem;height:.8rem;border-radius:50%;background:var(--orange);box-shadow:0 0 16px var(--orange)}
+nav ul{list-style:none;display:flex;gap:1.5rem;margin:0;padding:0;align-items:center}
+nav a{text-decoration:none;font-size:.92rem;color:var(--soft);transition:color .15s}
+nav a:hover{color:var(--white)}
+nav a.cta{background:var(--orange);color:var(--ink);padding:.55rem 1rem;border-radius:2px;font-weight:700}
+.menu{display:none;background:none;border:1px solid var(--hair);color:var(--white);padding:.5rem .8rem;border-radius:2px;font:inherit}
+@media(max-width:60rem){
+  .menu{display:block}
+  nav{position:absolute;left:0;right:0;top:4.2rem;background:var(--ink);border-bottom:1px solid var(--hair);display:none}
+  nav.open{display:block}
+  nav ul{flex-direction:column;align-items:stretch;gap:0;padding:.5rem 1.25rem 1rem}
+  nav li a{display:block;padding:.85rem 0;border-bottom:1px solid var(--hair)}
+  nav a.cta{text-align:center;margin-top:.8rem;border:0}
+}
+.hero{position:relative;min-height:calc(100vh - 4.2rem);display:flex;align-items:flex-end;padding:5rem 0 3.5rem;overflow:hidden;border:0}
+.hero::before,.hero::after{content:"";position:absolute;inset:0;background-size:64px 64px;pointer-events:none}
+.hero::before{background-image:linear-gradient(var(--hair) 1px,transparent 1px),linear-gradient(90deg,var(--hair) 1px,transparent 1px)}
+.hero::after{background-image:linear-gradient(rgba(242,140,0,.6) 1px,transparent 1px),linear-gradient(90deg,rgba(242,140,0,.6) 1px,transparent 1px);-webkit-mask-image:radial-gradient(240px circle at var(--mx,72%) var(--my,35%),#000,transparent);mask-image:radial-gradient(240px circle at var(--mx,72%) var(--my,35%),#000,transparent)}
+.glow{position:absolute;inset:0;background:radial-gradient(380px circle at var(--mx,72%) var(--my,35%),rgba(242,140,0,.17),transparent 70%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1;width:100%}
+.hero .tag{margin-bottom:1.4rem;font-size:1.05rem}
+.ln{display:block;overflow:hidden;padding-bottom:.06em}
+.ln>span{display:block;transform:translateY(105%);animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+.ln:nth-child(2)>span{animation-delay:.12s}.ln:nth-child(3)>span{animation-delay:.24s}
+@keyframes up{to{transform:none}}
+.hero-foot{display:grid;gap:1.6rem;margin-top:2.6rem;max-width:60rem}
+@media(min-width:58rem){.hero-foot{grid-template-columns:1.3fr auto;align-items:end;gap:3rem}}
+.hero-foot p{margin:0;max-width:34rem}
+.cta-row{display:flex;gap:.8rem;flex-wrap:wrap}
+.marq{background:var(--orange);color:var(--ink);overflow:hidden;white-space:nowrap;font-weight:900;font-size:1.05rem;padding:.85rem 0}
+.marq div{display:inline-block;animation:slide 28s linear infinite}
+.marq span{margin:0 1.4rem}
+.marq span::after{content:"/";margin-left:2.8rem;opacity:.45}
+@keyframes slide{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.marq div{animation:none}.ln>span{animation:none;transform:none}.btn{transition:none}}
+@media(min-width:60rem){
+  section:not(.hero):not(.belief) .wrap{display:grid;grid-template-columns:minmax(0,19rem) minmax(0,1fr);column-gap:4.5rem;row-gap:0;align-items:start}
+  section:not(.hero):not(.belief) .wrap>h2{grid-column:1;grid-row:1/span 40;position:sticky;top:6.5rem;margin:0}
+  section:not(.hero):not(.belief) .wrap>*:not(h2){grid-column:2}
+}
+.three{display:grid;gap:0;margin-top:1.5rem}
+.three div{border-top:1px solid #dcdee3;padding:1.4rem 0;display:grid;gap:.4rem}
+.three h3{font-size:1.6rem}
+.three p{margin:0;max-width:34rem}
+.steps{list-style:none;margin:2rem 0;padding:0;display:grid;gap:0}
+@media(min-width:40rem){.steps{grid-template-columns:repeat(2,1fr);column-gap:2rem}}
+.steps li{border-top:1px solid var(--hair);padding:1.4rem 0}
+.steps span{display:block;font-size:3.2rem;font-weight:900;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--orange)}
+.steps b{display:block;color:var(--white);font-size:1.3rem;margin:.6rem 0 .3rem}
+.two{display:grid;gap:2rem;margin-top:1rem}
+@media(min-width:50rem){.two{grid-template-columns:1fr 1fr}}
+ul.plain{padding-left:1.1rem;margin:0}
+ul.plain li{margin:.3rem 0}
+blockquote{margin:1.5rem 0 0;padding-left:1.2rem;border-left:3px solid var(--orange);font-size:1.3rem;font-weight:700;line-height:1.35;color:var(--white)}
+.note{font-size:.9rem;border:1px solid currentColor;opacity:.85;padding:.7rem 1rem;border-radius:2px}
+.inv{list-style:none;padding:0;margin:1.5rem 0 0}
+.inv li{border-top:1px solid #c9ccd2;padding:1.3rem 0;font-size:1.35rem;font-weight:700;line-height:1.3;color:var(--ink);transition:transform .2s}
+.inv li:hover{transform:translateX(.6rem);border-top-color:var(--orange)}
+.badge{display:inline-block;font-size:.8rem;font-weight:800;padding:.2rem .7rem;border-radius:2px;background:var(--orange);color:var(--ink)}
+.status{display:flex;gap:.5rem;flex-wrap:wrap;margin:0 0 2rem;font-size:.85rem;color:var(--soft)}
+.status span{border:1px solid var(--hair);padding:.15rem .7rem;border-radius:2px}
+.status span.cur{border-color:var(--orange);color:var(--orange)}
+.proj{border:1px solid var(--hair);border-top:4px solid var(--orange);padding:1.8rem}
+.proj h3{font-size:clamp(1.5rem,3vw,2rem);margin:.8rem 0}
+dl{margin:0}
+dt{font-weight:800;margin-top:1.1rem}
+.cs dd{margin:.2rem 0 0}
+.cs>div{border-top:1px solid #dcdee3;padding-bottom:.9rem}
+details{border-top:1px solid #c9ccd2}
+details:last-of-type{border-bottom:1px solid #c9ccd2}
+summary{cursor:pointer;padding:1.3rem 2.4rem 1.3rem 0;font-weight:800;font-size:1.25rem;line-height:1.3;list-style:none;position:relative;color:var(--ink)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:.2rem;top:1.1rem;font-size:1.6rem;color:var(--orange);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+summary small{display:block;font-weight:400;font-size:.88rem;color:var(--muted);margin-top:.2rem}
+details p{margin:0 0 1.3rem;max-width:40rem}
+.belief{padding:7rem 0}
+.belief h2{font-size:clamp(2.4rem,8.5vw,6.6rem);font-weight:900;letter-spacing:-.05em;line-height:.95;max-width:14ch;margin:0 0 1.6rem}
+.belief p{font-size:1.2rem;max-width:38rem}
+form{display:grid;gap:1rem;max-width:36rem;margin-top:1.5rem}
+label{font-weight:600;font-size:.93rem}
+label span{font-weight:400;color:var(--soft)}
+input,select,textarea{display:block;width:100%;font:inherit;padding:.8rem .85rem;margin-top:.3rem;border-radius:2px;border:1px solid #3a3f4a;background:#171a21;color:var(--white)}
+input:focus,select:focus,textarea:focus{border-color:var(--orange)}
+textarea{min-height:7rem;resize:vertical}
+.err{color:#ff9a91;min-height:1.4rem;font-size:.92rem}
+footer{background:#0b0d11;color:var(--soft);padding:2.2rem 0;font-size:.9rem;border-top:1px solid var(--hair)}
+footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#home"><i aria-hidden="true"></i>Luma Labs Africa</a>
+    <button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#approach">Our Approach</a></li>
+        <li><a href="#insights">Business Insights</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#case-studies">Case Studies</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a class="cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="dark hero" id="home">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="tag">Illuminating Possibilities.</p>
+    <h1><span class="ln"><span>Better businesses</span></span><span class="ln"><span>begin with</span></span><span class="ln"><span>better questions.</span></span></h1>
+    <div class="hero-foot">
+      <p class="lead">We observe how businesses operate, identify opportunities for improvement and develop practical solutions that make businesses work better and create better customer experiences.</p>
+      <div class="cta-row">
+        <a class="btn fill" href="#solutions">Explore What We’re Building</a>
+        <a class="btn ghost" href="#approach">How We Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="marq" aria-hidden="true"><div>
+  <span>Observe</span><span>Identify</span><span>Develop</span><span>Test &amp; improve</span><span>Observe</span><span>Identify</span><span>Develop</span><span>Test &amp; improve</span>
+  <span>Observe</span><span>Identify</span><span>Develop</span><span>Test &amp; improve</span><span>Observe</span><span>Identify</span><span>Develop</span><span>Test &amp; improve</span>
+</div></div>
+
+<section id="opportunity">
+  <div class="wrap">
+    <h2>Every business has opportunities waiting to be discovered.</h2>
+    <p class="lead">Sometimes the biggest opportunities aren’t found in launching something new. They’re hidden in everyday operations, customer interactions and processes that have simply become part of how business is done.</p>
+    <div class="three">
+      <div><h3>Operational Gaps</h3><p>Inefficiencies, disconnected processes and overlooked opportunities.</p></div>
+      <div><h3>Customer Experience Gaps</h3><p>Friction, inconvenience and missed opportunities to build lasting customer relationships.</p></div>
+      <div><h3>Growth Opportunities</h3><p>Ways businesses can improve engagement, efficiency, retention and overall performance.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="approach">
+  <div class="wrap">
+    <h2>We don’t wait for problems to find us. We go looking.</h2>
+    <p class="lead">Luma Labs Africa independently investigates business environments and develops solutions in response to the gaps it identifies.</p>
+    <ol class="steps">
+      <li><span>01</span><b>Observe</b>We study how businesses operate and how customers interact with them.</li>
+      <li><span>02</span><b>Identify</b>We recognise challenges, friction points and opportunities for improvement.</li>
+      <li><span>03</span><b>Develop</b>We create practical solutions using business strategy, customer experience thinking, design and technology.</li>
+      <li><span>04</span><b>Test &amp; Improve</b>We introduce solutions into real-world environments, learn from their performance and refine them.</li>
+    </ol>
+    <div class="two">
+      <div>
+        <h3>How we work in depth</h3>
+        <ul class="plain" style="margin-top:.8rem">
+          <li>Business observation</li><li>Industry research</li><li>Customer journey investigation</li><li>Opportunity identification</li>
+          <li>Solution design</li><li>Prototyping and development</li><li>Real-world testing</li><li>Continuous improvement</li>
+        </ul>
+      </div>
+      <div>
+        <p>We don’t prescribe the same solution to every business. A barbershop, restaurant, pharmacy and retail shop have different customers, operating models and commercial realities. Our approach adapts to the business.</p>
+        <blockquote>We don’t begin with a product and search for someone to use it. We begin with a problem and determine what would genuinely solve it.</blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="light" id="investigations">
+  <div class="wrap">
+    <h2>What we’re paying attention to.</h2>
+    <p class="note">These are questions we are observing. They are not verified findings, and we make no claim that any specific business has these problems.</p>
+    <ul class="inv">
+      <li>How neighbourhood businesses maintain relationships with customers after a sale.</li>
+      <li>How restaurants can reduce friction in reservations and customer communication.</li>
+      <li>How small retailers can improve customer engagement and repeat purchasing.</li>
+      <li>How service businesses can simplify customer registration and follow-ups.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="dark" id="solutions">
+  <div class="wrap">
+    <h2>Ideas are only useful when they solve something.</h2>
+    <div class="status" aria-label="Solution stages"><span>Concept</span><span>Prototype</span><span class="cur">Pilot</span><span>Tested</span><span>Available</span></div>
+    <article class="proj">
+      <span class="badge">Pilot</span>
+      <h3>Customer Connection: Kelvin Cave Barber Shop</h3>
+      <p>A simple, branded customer registration experience designed to help a neighbourhood barbershop collect customer details, communicate through preferred channels and give customers the option to connect with its online community.</p>
+      <ul class="plain">
+        <li>Branded customer registration</li>
+        <li>WhatsApp and email communication options</li>
+        <li>Separate marketing consent</li>
+        <li>Optional WhatsApp community invitation</li>
+        <li>Instagram connection (planned, not yet live)</li>
+      </ul>
+      <p class="note" style="margin-top:1.2rem">An early pilot demonstration of how we identify a gap and develop a practical solution. It has no central database or automated analytics, and we make no claims about retention, sales or revenue.</p>
+      <p style="margin-top:1.2rem"><a class="btn fill" href="https://lumalabsafrica-prog.github.io/Customer-Form/" target="_blank" rel="noopener">Explore the Project</a></p>
+    </article>
+  </div>
+</section>
+
+<section id="case-studies">
+  <div class="wrap">
+    <h2>Simplifying Customer Connections for a Neighbourhood Barbershop.</h2>
+    <p class="note">Early-stage pilot. Not a proven business outcome.</p>
+    <dl class="cs">
+      <div><dt>Business context</dt><dd>Kelvin Cave is a local barber shop that serves walk-in and returning customers.</dd></div>
+      <div><dt>Opportunity identified</dt><dd>A shop can learn who its customers are and reach them again, if there is an easy way to connect.</dd></div>
+      <div><dt>The challenge (our working hypothesis)</dt><dd>Customers can leave without the shop having a way to follow up. We are testing this assumption, not asserting it.</dd></div>
+      <div><dt>The proposed solution</dt><dd>A short registration form that sends details to the shop and offers optional channels to stay connected.</dd></div>
+      <div><dt>The customer journey</dt><dd>Open the link, fill in the form, choose consent options, send by WhatsApp or email, then optionally join the community group.</dd></div>
+      <div><dt>The technology</dt><dd>A static web page. It stores nothing and has no central database. Details travel in a message the customer sends.</dd></div>
+      <div><dt>What we are testing</dt><dd>Whether customers complete the form, and whether the shop finds the message format useful.</dd></div>
+      <div><dt>Lessons and next steps</dt><dd>Add the Instagram connection, gather the shop’s feedback and decide what to improve next.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="light" id="insights">
+  <div class="wrap">
+    <h2>Business Insights</h2>
+    <p class="lead">Observations and ideas from our work. These are introductory perspectives, not completed research.</p>
+    <details>
+      <summary>What happens to your customer relationship after the sale?<small>Customer Retention · 12 Nov 2026</small></summary>
+      <p>Many businesses put their effort into the moment of sale. What happens next, whether a customer hears from you again or has a reason to return, is often left to chance. It is worth asking whether that is a choice or an oversight.</p>
+    </details>
+    <details>
+      <summary>Why small businesses shouldn’t need complicated software to improve customer engagement<small>SME Innovation · 12 Nov 2026</small></summary>
+      <p>Improving engagement doesn’t always call for a large system. A simple, well-designed step, used consistently, can matter more than a powerful tool nobody has time to learn.</p>
+    </details>
+    <details>
+      <summary>The difference between acquiring customers and retaining them<small>Customer Experience · 12 Nov 2026</small></summary>
+      <p>Acquiring a customer and keeping one are different problems with different solutions. Treating them as the same thing can hide where a business is actually losing value.</p>
+    </details>
+    <details>
+      <summary>How small operational improvements can improve customer experience<small>Business Operations · 12 Nov 2026</small></summary>
+      <p>Customers rarely see a business’s internal processes, but they feel them. Small fixes, like fewer steps to register or a clearer way to reach the shop, often show up as a better experience.</p>
+    </details>
+  </div>
+</section>
+
+<section class="dark belief" id="belief">
+  <div class="wrap">
+    <h2>Better customer experiences. Smarter business operations.</h2>
+    <p>We believe better business outcomes don’t always require bigger budgets or complicated systems. Sometimes they begin with asking better questions, understanding everyday challenges and making small but meaningful improvements.</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>Curiosity drives innovation. Understanding drives solutions.</h2>
+    <p class="lead">Luma Labs Africa was established around a simple idea: better solutions begin with understanding the problems that need solving.</p>
+    <p class="lead">We are interested in how businesses operate, how customers experience them and where opportunities for improvement exist. Through observation, research, design and technology, we develop practical ways to improve everyday business experiences.</p>
+    <p class="lead">Our work is guided by curiosity, commercial thinking and a commitment to making solutions useful.</p>
+  </div>
+</section>
+
+<section class="dark" id="contact">
+  <div class="wrap">
+    <h2>What opportunities are hiding in your business?</h2>
+    <p class="lead">We’re constantly exploring ways to improve businesses and the experiences they create. If you’ve identified an opportunity or would like us to investigate a challenge, let’s talk.</p>
+    <form id="cf" novalidate>
+      <label>Name<input id="n" autocomplete="name"></label>
+      <label>Business name <span>(optional)</span><input id="b" autocomplete="organization"></label>
+      <label>Email<input id="e" type="email" autocomplete="email"></label>
+      <label>Phone number <span>(optional)</span><input id="p" type="tel" autocomplete="tel"></label>
+      <label>Nature of enquiry
+        <select id="t">
+          <option>General enquiry</option><option>Business improvement enquiry</option>
+          <option>Collaboration opportunity</option><option>Solution development enquiry</option>
+        </select>
+      </label>
+      <label>Message<textarea id="m"></textarea></label>
+      <div class="err" id="err" role="alert"></div>
+      <div class="cta-row" style="margin-top:0">
+        <button type="button" class="btn fill" id="wa">Start a Conversation on WhatsApp</button>
+        <button type="button" class="btn ghost" id="em">Send by email</button>
+      </div>
+      <p style="font-size:.88rem">This form stores nothing. It opens WhatsApp or your email app with your message ready, and nothing is sent until you tap Send there.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Luma Labs Africa</span>
+    <span>Illuminating Possibilities.</span>
+  </div>
+</footer>
+
+<script>
+// Contact details: fill these in. Leave empty until real details are set.
+var LUMA_WHATSAPP = "254768819418"; // digits only with country code, e.g. 254712345678
+var LUMA_EMAIL = "lumalabsafrica@gmail.com";
+
+var $ = function(id){ return document.getElementById(id); };
+
+$("menu").addEventListener("click", function(){
+  var open = $("nav").classList.toggle("open");
+  this.setAttribute("aria-expanded", open);
+});
+$("nav").addEventListener("click", function(e){
+  if(e.target.tagName === "A"){ $("nav").classList.remove("open"); $("menu").setAttribute("aria-expanded","false"); }
+});
+
+function compose(){
+  var n = $("n").value.trim(), e = $("e").value.trim(), m = $("m").value.trim();
+  if(!n) return {err:"Enter your name."};
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)) return {err:"Enter a valid email address."};
+  if(!m) return {err:"Write a short message."};
+  return {text:
+    "Enquiry type: " + $("t").value + "\nName: " + n +
+    "\nBusiness: " + ($("b").value.trim() || "-") + "\nEmail: " + e +
+    "\nPhone: " + ($("p").value.trim() || "-") + "\n\n" + m};
+}
+function send(kind){
+  var r = compose();
+  if(r.err){ $("err").textContent = r.err; return; }
+  if(kind === "wa" && !LUMA_WHATSAPP){ $("err").textContent = "WhatsApp contact isn’t set up yet."; return; }
+  if(kind === "em" && !LUMA_EMAIL){ $("err").textContent = "Email contact isn’t set up yet."; return; }
+  $("err").textContent = "";
+  var t = encodeURIComponent(r.text);
+  window.location.href = kind === "wa"
+    ? "https://wa.me/" + LUMA_WHATSAPP + "?text=" + t
+    : "mailto:" + LUMA_EMAIL + "?subject=" + encodeURIComponent("Luma Labs Africa enquiry") + "&body=" + t;
+}
+$("wa").addEventListener("click", function(){ send("wa"); });
+$("em").addEventListener("click", function(){ send("em"); });
+
+var hero = document.getElementById("home");
+hero.addEventListener("pointermove", function(ev){
+  var r = hero.getBoundingClientRect();
+  hero.style.setProperty("--mx", (ev.clientX - r.left) + "px");
+  hero.style.setProperty("--my", (ev.clientY - r.top) + "px");
+});
+</script>
+</body>
+</html>
